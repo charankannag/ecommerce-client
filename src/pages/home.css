@@ -1,0 +1,35 @@
+.category-title{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.3%;
+    margin-top: 40px;
+}
+.home-banner{
+    background-color: gray;
+    width: 100%;
+
+}
+.card{
+    border: none !important;
+    width: 15rem !important;
+}
+img.card-img-top.product-preview-img{
+    border-radius: 10px;
+}
+.category-title:hover{
+    transform: scale(1.15);
+}
+.sale_banner--container img{
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+}

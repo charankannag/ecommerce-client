@@ -1,0 +1,30 @@
+.sigup__image--container{
+    background-image: url("https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+ height: 100vh;
+ background-size: cover;
+}
+.signup__form--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__form--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.login__image--container{
+    background-image: url("https://images.unsplash.com/photo-1573666033935-0bf7bb387acf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlJTIwd2VsY29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+ height: 100vh;
+ background-size: cover;
+}
+@media screen and (max-width:756px) {
+    .login__image--container,.sigup__image--container{
+        display: none;
+    }
+}
